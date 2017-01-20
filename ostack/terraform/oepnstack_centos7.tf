@@ -14,10 +14,10 @@ provider "openstack" {
     pool = "net_external"
 }*/
 
-# Deploy a vanila CentoOS 7 image
-resource "openstack_compute_instance_v2" "centos7" {
+# Deploy
+resource "openstack_compute_instance_v2" "kubenow" {
     name = "KubeNow"
-    image_id = "cd6bab98-afa4-45d1-a6ff-96f63e87e0c6"
+    image_id = "349fc27d-c046-4835-b96b-0b552ffb8f06"
     flavor_id = "87cb9ac1-2ccb-4eaf-9436-5e4d17499429"
     network = {uuid="86b3ccc0-91d3-4496-9896-266747c1a870"}
 #    floating_ip = "${openstack_compute_floatingip_v2.floatip_1.address}"
