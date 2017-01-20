@@ -1,11 +1,11 @@
 {
-	"applicationName":"BioExcel Portal test application",
-	"contactEmail":"jadianes@gmail.com",
-	"about":"A simple OpenStack Centos7 infrastructure",
+	"applicationName":"KubeNow application",
+	"contactEmail":"sijin@ebi.ac.uk",
+	"about":"KubeNow infrastructure",
 	"version": "0.1",
 	"imageSource":{
-		"url":"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
-		"name":"Image for Escience Engine [Ubuntu/14.04/KVM]"
+		"url":"https://swift-se.citycloud.com/v1/AUTH_17bcdf88f1fd40de85f53b5038722681/kubenow-images/kubenow-v020a1.qcow2",
+		"name":"KubeNow"
 	},
 	"cloudProviders": [
 		{ "cloudProvider":"OSTACK", "path":"ostack" },
